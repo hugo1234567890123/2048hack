@@ -1,4 +1,4 @@
-function Grid(size, previousState) {
+function Grid(5x5, previousState) {
   this.size = size;
   this.cells = previousState ? this.fromState(previousState) : this.empty();
 }
